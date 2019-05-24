@@ -77,9 +77,15 @@ Run the unit tests:
 ```bash
 nosetests
 ```
+As a bonus you may need other libraries to get all the newer parts working please  install them doing:
+conda install seaborn 
+conda install mpld3
+conda install joblib
 
 Then, work away on NILMTK :).  When you are done, just do `source
 deactivate` to deactivate the nilmtk-env.
+
+
 
 
 <!-- #### Old installation procedure for Unix or OSX
