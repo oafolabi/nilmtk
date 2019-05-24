@@ -11,12 +11,12 @@ sections below:
 [one for Linux or OSX](#install-on-ubuntu-like-linux-variants-debian-based-or-osx)
 and another [section for Windows](#install-on-windows).
 
-## Python 3
+<!-- ## Python 3
 
 Python 3 support is experimental and hence please only attempt to use
 NILMTK on Python 3 if you are experiences with Python.  On Ubuntu,
 please run `sudo apt-get install python3-tk` prior to attempting to
-install NILMTK for Python 3.
+install NILMTK for Python 3. -->
 
 ### Install on Ubuntu like Linux variants (debian based) or OSX
 
@@ -56,7 +56,7 @@ source activate nilmtk-env
 ```
 
 Next we will install
-[nilm_metadata](https://github.com/nilmtk/nilm_metadata) (can't yet
+[nilm_metadata](https://github.com/oafolabi/nilm_metadata) (can't yet
 install using pip / conda):
 
 ```bash
@@ -82,7 +82,7 @@ Then, work away on NILMTK :).  When you are done, just do `source
 deactivate` to deactivate the nilmtk-env.
 
 
-#### Old installation procedure for Unix or OSX
+<!-- #### Old installation procedure for Unix or OSX
 
 - Update anaconda
 ```bash
@@ -115,7 +115,7 @@ a daylight saving boundary.  As such, please do not install Pandas
 2015 and includes a fix for this bug.  Please make sure you install
 Pandas 0.17.1 or higher.
 
-- Install [NILM Metadata](https://github.com/nilmtk/nilm_metadata).
+- Install [NILM Metadata](https://github.com/oafolabi/nilm_metadata).
 ```bash
 git clone https://github.com/nilmtk/nilm_metadata/
 cd nilm_metadata
@@ -148,7 +148,7 @@ cd..
 ```bash
 cd nilmtk
 nosetests
-```
+``` -->
 
 ### Install on Windows
 
@@ -161,7 +161,7 @@ nosetests
 conda install --yes pip numpy scipy six scikit-learn pandas numexpr pytables==3.2.2 dateutil matplotlib networkx future
 ```
 
-- Install [NILM Metadata](https://github.com/nilmtk/nilm_metadata) from git bash
+- Install [NILM Metadata](https://github.com/oafolabi/nilm_metadata) from git bash
 ```bash
 git clone https://github.com/nilmtk/nilm_metadata/
 cd nilm_metadata

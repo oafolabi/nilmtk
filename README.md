@@ -45,6 +45,10 @@ NILMTK includes:
 -  a common set of accuracy metrics
 -  and much more!
 
+# Important !!!
+This documentation is not correct. To install please follow the instructions here (https://github.com/oafolabi/nilmtk/blob/master/docs/manual/user_guide/install_dev.md)
+Everything else is historical and gives you  background, but don't follow it blindly
+
 
 # Documentation
 
