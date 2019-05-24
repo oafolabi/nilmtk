@@ -4,7 +4,7 @@
 We recommend using
 [Anaconda](https://store.continuum.io/cshop/anaconda/), which bundles
 togther most of the required packages. Please download Anaconda for
-Python 2.7.x.
+Python 2.7.x., You might also be able to use Anaconda for python3 but that is experimental for now.
 
 After installing Anaconda, please do the following.  We have two
 sections below:
