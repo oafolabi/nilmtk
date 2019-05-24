@@ -30,7 +30,7 @@ class ElecMeter(Hashable, Electric):
       of this meter.  Will be [] if no appliances are connected directly
       to this meter.
 
-    store : nilmtk.DataStore
+    store : nilmtk.DatStore
 
     key : string
         key into nilmtk.DataStore to access data.
