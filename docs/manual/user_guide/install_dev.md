@@ -42,7 +42,7 @@ Download NILMTK:
 
 ```bash
 cd ~
-git clone https://github.com/nilmtk/nilmtk.git
+git clone https://github.com/oafolabi/nilmtk
 cd nilmtk
 ```
 
@@ -61,7 +61,7 @@ install using pip / conda):
 
 ```bash
 cd ~
-git clone https://github.com/nilmtk/nilm_metadata/
+git clone https://github.com/oafolabi/nilm_metadata
 cd nilm_metadata; python setup.py develop; cd ..
 ```
 
@@ -169,7 +169,7 @@ conda install --yes pip numpy scipy six scikit-learn pandas numexpr pytables==3.
 
 - Install [NILM Metadata](https://github.com/oafolabi/nilm_metadata) from git bash
 ```bash
-git clone https://github.com/nilmtk/nilm_metadata/
+git clone https://github.com/oafolabi/nilm_metadata
 cd nilm_metadata
 python setup.py develop
 cd ..
@@ -188,7 +188,7 @@ pip install nose pbs coveralls coverage hmmlearn==0.1.1
 
 - Finally! Install nilmtk from git bash
 ```bash
-git clone https://github.com/nilmtk/nilmtk.git
+git clone https://github.com/oafolabi/nilmtk
 cd nilmtk
 python setup.py develop
 cd..
