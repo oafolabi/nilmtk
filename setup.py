@@ -112,8 +112,8 @@ setup(
                 'whole-house power meter readings',
     author='nilmtk authors',
     author_email='',
-    url='https://github.com/nilmtk/nilmtk',
-    download_url="https://github.com/nilmtk/nilmtk/tarball/master#egg=nilmtk-dev",
+    url='https://github.com/oafolabi/nilmtk',
+    download_url="https://github.com/oafolabi/nilmtk/tarball/master#egg=nilmtk-dev",
     long_description=open('README.md').read(),
     license='Apache 2.0',
     classifiers=[
